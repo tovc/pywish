@@ -14,5 +14,6 @@ def rolluntilc6r5fortrials(totaltrials):
 		totalpulls += rolluntilc6r5()
 		currenttrials += 1
 	return totalpulls / currenttrials
+
 if __name__ == "__main__":
 	print(rolluntilc6r5fortrials(10000))
